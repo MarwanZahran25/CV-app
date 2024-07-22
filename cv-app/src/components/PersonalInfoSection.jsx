@@ -8,7 +8,7 @@ export default function PersonalInfoSection({
 }) {
   return (
     <div className="font-bold flex flex-col py-12 lg:px-14 px-4 flex-wrap gap-9 ">
-      <h1 className="flex justify-center text-4xl">{Fullname}</h1>
+      <h1 className="flex justify-center text-4xl text-center">{Fullname}</h1>
       <h2 className="flex justify-center text-xl">{job}</h2>
       <div className="flex gap-4 justify-center">
         <div className="flex gap-2">
