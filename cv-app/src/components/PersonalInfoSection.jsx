@@ -7,7 +7,7 @@ export default function PersonalInfoSection({
   phoneNumber = "00000000",
 }) {
   return (
-    <div className="font-bold flex flex-col py-12 px-14 gap-9">
+    <div className="font-bold flex flex-col py-12 lg:px-14 px-4 flex-wrap gap-9 ">
       <h1 className="flex justify-center text-4xl">{Fullname}</h1>
       <h2 className="flex justify-center text-xl">{job}</h2>
       <div className="flex gap-4 justify-center">
