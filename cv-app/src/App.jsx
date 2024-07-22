@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header";
-
+import Footer from "./components/Footer";
 import PersonalInfo from "./components/PersonalInfo";
 import "./App.css";
 import PreviousExpriance from "./components/PreviousExpriance";
@@ -13,6 +13,7 @@ function App() {
       <PersonalInfo />
       <PreviousExpriance />
       <EducationForm />
+      <Footer />
     </div>
   );
 }

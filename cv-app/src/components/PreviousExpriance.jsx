@@ -8,7 +8,7 @@ export default function PreviousExpriance() {
   const [text, setText] = useState("");
   if (!isSubmitted) {
     return (
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 mb-10 py-4 border-y-2 border-black">
         <PreviousExprianceForm
           state={text}
           onChange={(e) => {
@@ -25,7 +25,7 @@ export default function PreviousExpriance() {
     );
   } else {
     return (
-      <div className="flex flex-col items-center gap-10">
+      <div className="flex flex-col items-center gap-10 mb-10">
         <PreviousSection text={text} />
         <Button
           text="Edit"

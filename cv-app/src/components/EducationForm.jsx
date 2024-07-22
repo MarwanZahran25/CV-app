@@ -11,7 +11,7 @@ export default function EducationForm() {
   const phrase = `Studied ${degree} in ${universty} from ${starting} to ${finishing}`;
   if (!isSubmited) {
     return (
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mb-10">
         <h1 className="font-bold text-2xl">Enter Your Education</h1>
         <form className="flex flex-wrap justify-center">
           <Input
@@ -62,7 +62,7 @@ export default function EducationForm() {
     );
   } else {
     return (
-      <div className="p-10 text-center font-semibold text-2xl flex-col flex items-center gap-5">
+      <div className="p-10 text-center font-semibold text-2xl flex-col flex items-center gap-5 mb-10">
         <h1>{phrase}</h1>
         <Button
           text="Edit"
