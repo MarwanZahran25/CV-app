@@ -35,7 +35,7 @@ export default function PersonalInfo() {
             state={lastName}
           />
           <Input
-            fieldName="Job"
+            fieldName="Position"
             onChange={(e) => {
               setJob(e.target.value);
             }}
