@@ -7,8 +7,11 @@ export default function EducationForm() {
   const [degree, setDegree] = useState("");
   const [starting, setStarting] = useState("");
   const [finishing, setFinishing] = useState("");
+  let phrase = "";
+  if (degree && universty && starting && finishing) {
+    phrase = `Studied ${degree} in ${universty} from ${starting} to ${finishing}`;
+  }
 
-  const phrase = `Studied ${degree} in ${universty} from ${starting} to ${finishing}`;
   if (!isSubmited) {
     return (
       <div className="flex flex-col items-center mb-10">
